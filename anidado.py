@@ -1,5 +1,5 @@
-nombre = "jua"
-edad = 17
+nombre = "juan"
+edad = 19
 
 if nombre == "juan":
     if edad >= 18:
