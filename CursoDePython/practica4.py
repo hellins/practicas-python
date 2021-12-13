@@ -60,7 +60,7 @@ print("Redondeado con ceil (hacia arriba): {}".format(redondeado_arriba))
 nota1 = int(input(" Ingresa otra calificacion: "))
 redondeo = nota1 % 10
 
-if redondeo >=6:
+if 0 <= nota1 <= 100 and redondeo >=6:
     nota1 = nota1 + (10 - redondeo)
     
 print(nota1)    
