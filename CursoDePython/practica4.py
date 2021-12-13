@@ -56,3 +56,11 @@ print("Redondeado con round: {}".format(redondeado))
 print("Redondeado con floor (hacia abajo): {}".format(redondeado_abajo))
 print("Redondeado con ceil (hacia arriba): {}".format(redondeado_arriba))
 '''
+
+nota1 = int(input(" Ingresa otra calificacion: "))
+redondeo = nota1 % 10
+
+if redondeo >=6:
+    nota1 = nota1 + (10 - redondeo)
+    
+print(nota1)    
