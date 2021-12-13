@@ -25,4 +25,5 @@ temp = int(input("introduzca el valor de la temperatura: "))
 
 if 18<= temp <=27:
     print("La temperatura es agradable")
-print("Nos vemos pronto")    
+print("Nos vemos pronto")  
+print("hola")  
