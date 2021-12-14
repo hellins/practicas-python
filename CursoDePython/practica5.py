@@ -20,4 +20,10 @@ else:
     print(" Datos incorrectos ")
     
 # Estructura Selectiva Multiple
+'''
+Script en Python que solicite al usuario una calificacion y una cantidad de asistencias a un
+curso. Si la calificacion y la cantidad de asistencias son aprobatorias en tonces se le 
+felicita por su logro; en caso contrario sele indicara en que fallo. La cailificacion
+minima aprobatoria sera  de 60 y la cantidad minima de asiatencia sera de 24.
+'''
 
