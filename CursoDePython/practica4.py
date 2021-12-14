@@ -37,7 +37,7 @@ import math
 
 nota = float(input("Ingresa tu Calificacion: "))
 
-calificacion = round(nota)
+calificacion = round(nota)  # Redondeo
 
 print(f"Tu calificacion es: {calificacion}")
 if calificacion >= 10:
