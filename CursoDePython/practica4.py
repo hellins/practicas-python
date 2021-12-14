@@ -63,4 +63,5 @@ redondeo = nota1 % 10
 if 0 <= nota1 <= 100 and redondeo >=6:
     nota1 = nota1 + (10 - redondeo)
     
-print(nota1)    
+print(nota1)
+ 
