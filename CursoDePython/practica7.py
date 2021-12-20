@@ -61,7 +61,7 @@ if SUMA <= opc <= POTENCIA:
             print("No se puede dividir entre cero (0)")
         else:
             resudivi_ente = int
-            resudivi_ente = divi_ente1 / divi_ente2
+            resudivi_ente = divi_ente1 // divi_ente2
             print(f"El resultado de la Division de {divi_ente1} / {divi_ente2} es: {resudivi_ente}")
 
 else:
