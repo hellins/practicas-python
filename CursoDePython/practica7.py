@@ -54,7 +54,15 @@ if SUMA <= opc <= POTENCIA:
         else:
             resudivi = divi1 / divi2
             print(f"El resultado de la Division de {divi1} / {divi2} es: {resudivi}")
-    #elif opc == DIVI_ENTE  
+    elif opc == DIVI_ENTE:
+        divi_ente1 = int(input("Ingresa el dividendo:"))
+        divi_ente2 = int(input(" ingrese el divisor: "))
+        if divi_ente2 == 0:
+            print("No se puede dividir entre cero (0)")
+        else:
+            resudivi_ente = int
+            resudivi_ente = divi_ente1 / divi_ente2
+            print(f"El resultado de la Division de {divi_ente1} / {divi_ente2} es: {resudivi_ente}")
 
 else:
     print("Opcion no valida")
