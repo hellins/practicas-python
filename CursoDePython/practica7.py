@@ -40,15 +40,25 @@ if SUMA <= opc <= POTENCIA:
     elif opc == MULTIPLICACION:
         print(f"La Multiplicacion de {op_1} x {op_2} = {op_1*op_2}")
     elif opc == DIVISION:
-        print(f"La Division de {op_1} / {op_2} = {op_1/op_2}")
+        if op_2 != 0:
+            print(f"La Division de {op_1} / {op_2} = {op_1/op_2}")
+        else:
+            print("Operacion no definida")        
     elif opc == DIVISION_ENTERA:
-        print(f"La Division Entera de {op_1} // {op_2} = {op_1//op_2}")
+        if op_2 != 0:
+            print(f"La Division Entera de {op_1} // {op_2} = {op_1//op_2}")
+        else:
+            print("Operacion no definida")        
     elif opc == MODULO:
-        print(f"El Modulo de {op_1} % {op_2} = {op_1%op_2}")
-    elif opc== POTENCIA:
+        if op_2 != 0:
+            print(f"El Modulo de {op_1} % {op_2} = {op_1%op_2}")
+        else:
+            print("Operacion no definida")        
+    else:
         print(f"La Potencia de {op_1} ** {op_2} = {op_1**op_2}")
 else:
     print("Opcion no valida") 
+print("hasta luego")
 
 '''
 
