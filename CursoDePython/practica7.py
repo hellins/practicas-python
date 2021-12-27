@@ -33,7 +33,20 @@ opc = int(input("Selecciona una opcion: "))
 if SUMA <= opc <= POTENCIA:
     op_1 = int(input("Primer operando: "))
     op_2 = int(input("Segundo operando: "))
-    
+    if opc == SUMA:
+        print(f"La Suma de {op_1} + {op_2} = {op_1+op_2}")
+    elif opc == RESTA:
+        print(f"La Resta de {op_1} - {op_2} = {op_1-op_2}")
+    elif opc == MULTIPLICACION:
+        print(f"La Multiplicacion de {op_1} x {op_2} = {op_1*op_2}")
+    elif opc == DIVISION:
+        print(f"La Division de {op_1} / {op_2} = {op_1/op_2}")
+    elif opc == DIVISION_ENTERA:
+        print(f"La Division Entera de {op_1} // {op_2} = {op_1//op_2}")
+    elif opc == MODULO:
+        print(f"El Modulo de {op_1} % {op_2} = {op_1%op_2}")
+    elif opc== POTENCIA:
+        print(f"La Potencia de {op_1} ** {op_2} = {op_1**op_2}")
 else:
     print("Opcion no valida") 
 
