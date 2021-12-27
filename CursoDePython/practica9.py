@@ -30,3 +30,26 @@ while numero != 0:
     print(f"La suma: {suma}")
     print(f"multiplicacion: {multiplicacion}")
 print("no vemos")
+'''
+script en Python que simule el sistema de validacion de datos de una plataforma digital. Se le solicitara al usuario su nombre y contraseña mientra la informacion proporcionada no coincida con la informacion previamente registarada.
+'''
+import os
+
+USER = "pepe"
+PASSWORD = "vidr1o"
+
+user = ""
+password = ""
+
+while USER != user or PASSWORD != password:
+    os.system("clear")
+    print("                                         kit-kot")
+    user = input("Usuario: ")
+    password = input("Contraseña: ")
+    if USER != user or PASSWORD != password:
+        print("Credenciales incorrectas")
+        print("Intenta nuevamente")
+        input("Presiona enter para continuar")
+else:
+    print(" Bienvenid@")
+print("hasta luego")
