@@ -11,23 +11,33 @@ Script en Python que simule una calculadora con la operaciones arismeticas basic
 7) Potencia
 '''
 
-print('''                                   CALCULADORA
-1) Suma
-2) Resta
-3) Multiplicacion
-4) Division
-5) Division Entera
-6) Modulo
-7) Potencia
-      ''')
-
 SUMA = 1
 RESTA = 2
-MULTI = 3
-DIVI = 4
-DIVI_ENTE = 5
+MULTIPLICACION = 3
+DIVISION = 4
+DIVISION_ENTERA = 5
 MODULO = 6
 POTENCIA = 7
+
+print(f'''                                   CALCULADORA
+{SUMA}) Suma
+{RESTA}) Resta
+{MULTIPLICACION}) Multiplicacion
+{DIVISION}) Division
+{DIVISION_ENTERA}) Division Entera
+{MODULO}) Modulo
+{POTENCIA}) Potencia
+''')
+
+opc = int(input("Selecciona una opcion: "))
+if SUMA <= opc <= POTENCIA:
+    op_1 = int(input("Primer operando: "))
+    op_2 = int(input("Segundo operando: "))
+    
+else:
+    print("Opcion no valida") 
+
+'''
 
 opc = int(input("Seleccione Operacion Arismetica: "))
 if SUMA <= opc <= POTENCIA:
@@ -66,3 +76,4 @@ if SUMA <= opc <= POTENCIA:
 
 else:
     print("Opcion no valida")
+'''
