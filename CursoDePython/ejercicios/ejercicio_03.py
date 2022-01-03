@@ -12,3 +12,15 @@ print(f"                    Tabla de Multiplicar del {tabla} hasta el {limite}")
 for multiplo in range(1, limite+1):
     print(f"{tabla} x {multiplo} = {tabla*multiplo}")
 print("hasta luego")
+
+# script que muestre las tablas de mu8ltiplicar de los numeros del 1 al 10. Cada tabla se muestra has el dicimo multiplo.
+
+import os
+for tabla in range(1, 11):
+    os.system("clear")
+    print(f"                                   Tabla de Multiplicar {tabla}")
+    for multiplo in range (1,11):
+        print(f"{tabla} x {multiplo} = {tabla*multiplo}")
+    input("Presiona Enter para continuar........")
+        
+print("Hasta  luego......")
