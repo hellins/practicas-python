@@ -48,3 +48,42 @@ def mayoria_edad():
         print(f"Hola {nombre} Eres menor de edad")
 mayoria_edad()
 print(" Hasta luego ......")
+
+'''
+Script en Python que muestre un menu ciclico; dicho menu sera implementado en un procedimiento.
+'''
+import os
+
+ESP = 1
+ING = 2
+NO_SUBS = 3
+SALIR = 4
+
+def mostrar_menu():
+    print(f'''                                  Subtitulos
+    {ESP}) Español
+    {ING}) Ingles
+    {NO_SUBS}) Sin Subtitulos
+    {SALIR}) Salir
+          ''')
+continuar = True
+while continuar:
+    os.system("clear")
+    mostrar_menu()
+    opc = int(input("Selecciona una opcion: "))
+    if opc == ESP:
+        
+        print("Subtitulo en Español")
+    elif opc == ING:
+        
+        print("Subtitulo en Ingles")
+    elif opc == NO_SUBS:
+        
+        print("Sin Subtitulos")
+    elif opc == SALIR:
+        continuar = False
+    else:
+        print("Opcion no Valida")
+    input("Preciona Enter para continuar....")
+    
+print("Hasta luego ......")
